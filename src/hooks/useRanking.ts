@@ -59,7 +59,6 @@ export const useRanking = (): UseRankingReturn => {
         userScores.set(user.uid, {
           userId: user.uid,
           displayName: user.displayName || 'Usuario',
-          email: user.email,
           totalPoints: 0,
           poleAccuracy: 0,
           crashAccuracy: 0,

@@ -89,7 +89,6 @@ export interface PageHeaderProps {
 export interface UserScore {
   userId: string;
   displayName: string;
-  email: string;
   totalPoints: number;
   poleAccuracy: number;
   crashAccuracy: number;

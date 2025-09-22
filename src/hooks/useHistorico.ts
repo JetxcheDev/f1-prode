@@ -79,7 +79,6 @@ export const useHistorico = (): UseHistoricoReturn => {
         return {
           ...vote,
           userDisplayName: userProfile?.displayName,
-          userEmail: userProfile?.email
         };
       });
       
